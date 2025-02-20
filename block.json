@@ -1,0 +1,30 @@
+{
+  "apiVersion": 2,
+  "name": "custom/highlight-box",
+  "title": "Custom Highlight Box",
+  "category": "design",
+  "icon": "editor-alignleft",
+  "description": "A custom block to add a highlighted box with heading, paragraph, background color, and border toggle.",
+  "keywords": ["highlight", "box", "text", "heading"],
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Your Heading Here"
+    },
+    "paragraph": {
+      "type": "string",
+      "default": "Your content goes here."
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#f0f0f0"
+    },
+    "borderEnabled": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
